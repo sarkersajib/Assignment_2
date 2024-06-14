@@ -1,0 +1,85 @@
+body {
+    font-weight:500;
+    font-style: normal;
+
+}
+.menu-container{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+
+nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+
+}
+.logo{
+    width: 200px;
+    
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+li:hover{
+    color: #5451f8;
+    cursor:pointer;
+}
+
+.search {
+    width: 500px;
+    height: 50px;
+    box-shadow: 5px 10px 18px #a7b1c3;
+    border-radius: 5px 0 0 5px;
+    border: none;
+   
+}
+.button{
+    background-color: aqua;
+}
+.input{
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+}
+
+.btn {
+    border-radius: 5px 5px 5px 5px;
+    background-color: #48697d;
+    
+}
+.cart-img {
+    height: 250px;
+    width: 270px;
+    border-radius: 5px;
+}
+.div_class {
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.players {
+    box-shadow: 4px 4px 8px black;
+    margin-left: 20px;
+    border:none;
+    background-color: rgb(174, 219, 219);
+}
+.cart_section {
+
+    box-shadow: 4px 4px 8px rgb(31, 28, 28);
+    background-color:rgb(79, 138, 118);
+    align-items: center;
+
+}
+.cart_section {
+    font-weight:500;
+    font-style: normal;
+
+}
+.div_class1 {
+      background-color: rgb(39, 105, 220);
+}
